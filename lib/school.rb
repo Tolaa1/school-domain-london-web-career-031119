@@ -10,7 +10,7 @@ class School
   def self.add_student(name, grade)
     school.roster.new(self, grade)
   end
-  def school.grade(grade)
+  def student.grade(grade)
     student.map{|grade| student.grade}
   end
 end
