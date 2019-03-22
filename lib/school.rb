@@ -6,4 +6,5 @@ class School
     @@all << self
   end
   def add_student(name, grade)
+    student.new(self, grade)
 end
