@@ -10,9 +10,11 @@ class School
   def school
     school.new
   end
+
   def add_student(name,grade)
     school.new(self, grade)
   end
+
   def self.grade(grade)
     students.map{|grade| student.grade}
   end
