@@ -5,7 +5,7 @@ class School
   def initialized(name)
     @name = name
     school.roster = []
-    @@all << self
+     @@all = school.roster.class  << self
   end
   def self.add_student
     school.new(self, grade)
