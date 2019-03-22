@@ -6,6 +6,6 @@ class School
     @@all << self
   end
   def self.add_student(name, grade)
-    student.new(self, grade)
+    school.roster.new(self, grade)
   end
 end
