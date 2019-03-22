@@ -10,7 +10,7 @@ class School
   def school
     school.new
   end
-  def add_student
+  def add_student(name,grade)
     school.new(self, grade)
   end
   def self.grade(grade)
