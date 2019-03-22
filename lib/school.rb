@@ -7,6 +7,8 @@ class School
     school.roster = []
      @@all = school.roster.class  << self
   end
+  def school
+    school.new
   def self.add_student
     school.new(self, grade)
   end
