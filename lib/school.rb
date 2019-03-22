@@ -4,7 +4,7 @@ class School
   @@all = []
   def initialized(name)
     @name = name
-    #school.roster = []
+    school.roster = []
     @@all << self
   end
   def self.add_student
