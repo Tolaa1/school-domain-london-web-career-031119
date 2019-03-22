@@ -1,5 +1,6 @@
 
 class School
+  attr_reader :name, :grade
   def initialized(name)
     @name = name
     school.roster = []
