@@ -11,6 +11,6 @@ class School
     school.roster.new(self, grade)
   end
   def student.grade(grade)
-    student.map{|grade| student.grade}
+    students.map{|grade| student.grade}
   end
 end
