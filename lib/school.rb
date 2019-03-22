@@ -10,4 +10,5 @@ class School
   end
   def school.grade(grade)
     student.map{|grade| student.grade}
+  end
 end
