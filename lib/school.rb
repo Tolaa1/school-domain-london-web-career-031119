@@ -7,8 +7,8 @@ class School
     #school.roster = []
     @@all << self
   end
-  def self.add_student(name)
-    @@school.new(self, grade)
+  def self.add_student
+    school.new(self, grade)
   end
   def self.grade(grade)
     students.map{|grade| student.grade}
