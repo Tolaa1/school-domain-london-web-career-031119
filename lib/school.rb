@@ -8,4 +8,5 @@ class School
   def self.add_student(name, grade)
     school.roster.new(self, grade)
   end
+  def school.grade
 end
