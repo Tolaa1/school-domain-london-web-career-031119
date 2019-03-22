@@ -7,7 +7,7 @@ class School
     school.roster = []
      @@all = school.roster.class  << self
   end
-  def school(test school)
+  def school()
     school.new
   end
 
